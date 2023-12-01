@@ -1,1 +1,7 @@
-c
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
