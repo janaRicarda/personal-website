@@ -1,7 +1,50 @@
 * {
   box-sizing: border-box;
 }
-ul {
-  list-style: none;
+
+body {
+  font-family: system-ui;
+}
+
+nav {
+  height: 70px;
   display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+h1 {
+  text-transform: uppercase;
+}
+.circle-about {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+.circle-skills {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+.circle-contact {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: lavender;
+}
+.footer {
 }
