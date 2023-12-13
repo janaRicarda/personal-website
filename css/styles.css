@@ -32,12 +32,18 @@ h1 {
   border-radius: 50%;
   background-color: aquamarine;
 }
+.circle-about:hover {
+  background-color: rgb(192, 205, 50);
+}
 .circle-skills {
   border: 1px solid black;
   height: 300px;
   width: 300px;
   border-radius: 50%;
   background-color: aqua;
+}
+.circle-skills:hover {
+  background-color: darkturquoise;
 }
 .circle-contact {
   border: 1px solid black;
@@ -46,5 +52,9 @@ h1 {
   border-radius: 50%;
   background-color: lavender;
 }
+.circle-contact:hover {
+  background-color: plum;
+}
 .footer {
+  font-size: 8pt;
 }
