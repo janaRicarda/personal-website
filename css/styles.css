@@ -1,5 +1,20 @@
-* {
+@import "components/circle.css";
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+:root {
+  --about-color1: aquamarine;
+  --about-color2: rgb(192, 205, 50);
+  --skills-color1: aqua;
+  --skills-color2: darkturquoise;
+  --contact-color1: lavender;
+  --contact-color2: plum;
+  --main-black: black;
+  --main-white: white;
 }
 
 body {
@@ -10,11 +25,11 @@ nav {
   height: 70px;
   display: flex;
   justify-content: space-evenly;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--main-black);
 }
 a {
   text-decoration: none;
-  color: black;
+  color: var(--main-black);
 }
 main {
   display: flex;
@@ -25,36 +40,21 @@ main {
 h1 {
   text-transform: uppercase;
 }
-.circle-about {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  background-color: aquamarine;
-}
-.circle-about:hover {
-  background-color: rgb(192, 205, 50);
-}
-.circle-skills {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  background-color: aqua;
-}
-.circle-skills:hover {
-  background-color: darkturquoise;
-}
-.circle-contact {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  background-color: lavender;
-}
-.circle-contact:hover {
-  background-color: plum;
-}
+
 .footer {
   font-size: 8pt;
+  position: fixed;
+  bottom: 0;
+}
+
+.about {
+  background: var(--about-color1);
+}
+
+.skills {
+  background: var(--skills-color1);
+}
+
+.contact {
+  background: var(--contact-color1);
 }
