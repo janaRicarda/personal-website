@@ -1,0 +1,38 @@
+@media screen and (min-width: 1000px) {
+  .circles {
+    flex-direction: row;
+  }
+  .circle {
+    height: 70vh;
+    width: 70vh;
+  }
+}
+
+@media (orientation: landscape) {
+  .circles {
+    flex-direction: row;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .frame {
+    background-color: var(--main-black);
+    color: var(--main-white);
+  }
+  p {
+    color: var(--main-black);
+  }
+  .button-top {
+    color: var(--main-white);
+    background-color: transparent;
+  }
+  .dark-mode__about {
+    color: var(--about-color1);
+  }
+  .dark-mode__skills {
+    color: var(--skills-color1);
+  }
+  .dark-mode__contact {
+    color: var(--contact-color1);
+  }
+}

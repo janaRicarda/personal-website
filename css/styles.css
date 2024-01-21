@@ -1,4 +1,7 @@
-@import "components/circle.css";
+@import "./components/circle.css";
+@import "./components/footer.css";
+@import "./components/buttonup.css";
+@import "./components/mediaqueries.css";
 
 *,
 *::before,
@@ -7,19 +10,13 @@
 }
 
 :root {
-  /*--about-color1: aquamarine;
-  --about-color2: rgb(192, 205, 50);
-  --skills-color1: aqua;
-  --skills-color2: darkturquoise;
-  --contact-color1: lavender;
-  --contact-color2: plum;*/
+  --about-color1: hsl(60 100% 80%);
+  --skills-color1: hsl(180 100% 80%);
+  --contact-color1: hsl(300 100% 80%);
 
-  --about-color1: hsl(60 70% 80%);
-  --skills-color1: hsl(165 70% 80%);
-  --contact-color1: hsl(270 70% 80%);
-  --about-color2: hsl(90 70% 80%);
-  --skills-color2: hsl(195 70% 80%);
-  --contact-color2: hsl(300 70% 80%);
+  --about-color2: hsl(90 100% 80%);
+  --skills-color2: hsl(210 100% 80%);
+  --contact-color2: hsl(330 100% 80%);
   --main-black: #303030;
   --main-white: #fff5ee;
 }
@@ -27,28 +24,46 @@
 body {
   font-family: system-ui;
   background-color: var(--main-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 7rem;
 }
 
-nav {
+.header {
   height: 70px;
-  display: flex;
-  justify-content: space-evenly;
   border-bottom: 1px solid var(--main-black);
+  margin-bottom: 2rem;
 }
 a {
   text-decoration: none;
   color: var(--main-black);
 }
-main {
+.frame {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 100px;
 }
 h1 {
   text-transform: uppercase;
+  text-align: center;
 }
-
+article {
+  margin-bottom: 20%;
+}
+article:last-child {
+  margin-bottom: 200px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.circles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 .footer {
   font-size: 8pt;
   position: fixed;
@@ -65,4 +80,8 @@ h1 {
 
 .contact {
   background: var(--contact-color1);
+}
+
+.remove {
+  display: none;
 }

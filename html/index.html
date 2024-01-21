@@ -5,26 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jana May</title>
     <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../JS/index.js" defer></script>
   </head>
   <body>
-    <header>
-      <nav class="menu">
-        <a href="index.html">home</a>
-        <a href="about.html">about</a>
-        <a href="skills.html">skills</a>
-        <a href="contact.html">contact</a>
-      </nav>
-    </header>
-    <main>
-      <h1>Jana May</h1>
-      <button id="about" class="circle-about">
-        <a href="about.html">about</a>
-      </button>
-      <button id="skills" class="circle-skills">skills</button>
-      <button id="contact" class="circle-contact">contact</button>
+    <main class="frame" data-js="main">
+      <article id="top" data-js="main-article">
+        <header class="header"><h1>Jana May</h1></header>
+        <section class="circles home">
+          <button class="circle-about" type="button" data-js="about-button">about</button>
+          <button class="circle-skills" type="button" data-js="skills-button">skills</button>
+          <button class="circle-contact" type="button" data-js="contact-button">contact</button>
+        </section>
+        <!-- </article>
+      <article id="about">
+        <header class="header"><h1>about</h1></header>
+        <section>
+          <p class="circle about">I'm Jana. I like shapes and colors.</p>
+        </section>
+      </article>
+      <article id="skills">
+        <header class="header"><h1>skills</h1></header>
+        <section>
+          <p class="circle skills">HTML - CSS - Javascript - Git</p>
+        </section>
+      </article>
+      <article id="contact">
+        <header class="header">
+          <h1>contact</h1>
+        </header>
+        <section>
+          <p class="circle contact">jana.ricarda.may@gmail.com</p>
+        </section>
+      </article>-->
     </main>
-    <footer>
-      <p>@copyright 2023</p>
-    </footer>
+    <button type="button" class="button-top" data-js="button-back">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>back</button>
   </body>
 </html>

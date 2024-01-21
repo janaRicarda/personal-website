@@ -1,30 +1,40 @@
 .circle-about {
   border: 1px solid var(--main-black);
-  height: 300px;
-  width: 300px;
+  height: 25vh;
+  width: 25vh;
   border-radius: 50%;
-  background-color: var(--about-color1);
+  background: linear-gradient(var(--about-color1), hsl(140 100% 80%));
 }
 .circle-about:hover {
   background-color: var(--about-color2);
 }
 .circle-skills {
   border: 1px solid var(--main-black);
-  height: 300px;
-  width: 300px;
+  height: 25vh;
+  width: 25vh;
   border-radius: 50%;
-  background-color: var(--skills-color1);
+  background: linear-gradient(hsl(140 100% 80%), hsl(220 100% 80%));
 }
 .circle-skills:hover {
   background-color: var(--skills-color2);
 }
 .circle-contact {
   border: 1px solid var(--main-black);
-  height: 300px;
-  width: 300px;
+  height: 25vh;
+  width: 25vh;
   border-radius: 50%;
-  background-color: var(--contact-color1);
+  background: linear-gradient(hsl(220 100% 80%), var(--contact-color1));
 }
 .circle-contact:hover {
   background-color: var(--contact-color2);
+}
+
+.circle {
+  border: 1px solid var(--main-black);
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%;
+  margin-top: 5rem;
+  line-height: 50vh;
+  text-align: center;
 }
