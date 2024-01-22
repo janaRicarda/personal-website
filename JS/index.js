@@ -8,7 +8,7 @@ const buttonBack = document.querySelector('[data-js="button-back"]');
 
 buttonAbout.addEventListener("click", () => {
   const articleAbout = document.createElement("article");
-  articleAbout.innerHTML = `<header class="header">
+  articleAbout.innerHTML = `<header>
 <h1 class="dark-mode__about">about</h1>
 </header>
 <section>
@@ -26,7 +26,7 @@ buttonAbout.addEventListener("click", () => {
 
 buttonContact.addEventListener("click", () => {
   const articleContact = document.createElement("article");
-  articleContact.innerHTML = `<header class="header">
+  articleContact.innerHTML = `<header>
   <h1 class="dark-mode__contact">contact</h1>
   </header>
   <section>
@@ -44,7 +44,7 @@ buttonContact.addEventListener("click", () => {
 
 buttonSkills.addEventListener("click", () => {
   const articleSkills = document.createElement("article");
-  articleSkills.innerHTML = `<header class="header">
+  articleSkills.innerHTML = `<header>
   <h1 class="dark-mode__skills">skills</h1>
   </header>
   <section>

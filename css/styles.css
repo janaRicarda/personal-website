@@ -12,63 +12,34 @@
   --about-color1: hsl(60 100% 80%);
   --skills-color1: hsl(180 100% 80%);
   --contact-color1: hsl(300 100% 80%);
-
-  --about-color2: hsl(90 100% 80%);
-  --skills-color2: hsl(210 100% 80%);
-  --contact-color2: hsl(330 100% 80%);
   --main-black: #303030;
   --main-white: #fff5ee;
 }
 
 body {
   font-family: system-ui;
-  background-color: var(--main-white);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 7rem;
 }
 
-.header {
-  height: 70px;
-  border-bottom: 1px solid var(--main-black);
-  margin-bottom: 2rem;
-}
-a {
-  text-decoration: none;
-  color: var(--main-black);
-}
 .frame {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 100px;
 }
 h1 {
+  border-bottom: 1px solid var(--main-black);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-transform: uppercase;
   text-align: center;
 }
-article {
-  margin-bottom: 20%;
-}
-article:last-child {
-  margin-bottom: 200px;
-}
-.home {
+
+.circles-home {
   display: flex;
-  flex-direction: column;
-}
-.circles {
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   gap: 0.5rem;
 }
-.footer {
-  font-size: 8pt;
-  position: fixed;
-  bottom: 0;
-}
-
 .about {
   background: var(--about-color1);
 }

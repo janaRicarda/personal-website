@@ -1,30 +1,32 @@
 .circle-about {
   border: 1px solid var(--main-black);
-  height: 25vh;
-  width: 25vh;
+  height: 11rem;
+  width: 11rem;
   border-radius: 50%;
   background: linear-gradient(var(--about-color1), hsl(140 100% 80%));
 }
 .circle-skills {
   border: 1px solid var(--main-black);
-  height: 25vh;
-  width: 25vh;
+  height: 11rem;
+  width: 11rem;
   border-radius: 50%;
   background: linear-gradient(hsl(140 100% 80%), hsl(220 100% 80%));
 }
 .circle-contact {
   border: 1px solid var(--main-black);
-  height: 25vh;
-  width: 25vh;
+  height: 11rem;
+  width: 11rem;
   border-radius: 50%;
   background: linear-gradient(hsl(220 100% 80%), var(--contact-color1));
 }
 .circle {
   border: 1px solid var(--main-black);
-  height: 50vh;
-  width: 50vh;
+  height: 22rem;
+  width: 22rem;
   border-radius: 50%;
   margin-top: 5rem;
-  line-height: 50vh;
-  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

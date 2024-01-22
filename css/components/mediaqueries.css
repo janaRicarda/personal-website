@@ -1,5 +1,6 @@
 @media screen and (min-width: 1000px) {
-  .circles {
+  .circles-home {
+    display: flex;
     flex-direction: row;
   }
   .circle {
@@ -9,13 +10,41 @@
 }
 
 @media (orientation: landscape) {
-  .circles {
+  .circles-home {
+    display: flex;
     flex-direction: row;
   }
+  .circle-about {
+    background: linear-gradient(
+      to right,
+      var(--about-color1),
+      hsl(140 100% 80%)
+    );
+  }
+  .circle-skills {
+    background: linear-gradient(to right, hsl(140 100% 80%), hsl(220 100% 80%));
+  }
+  .circle-contact {
+    background: linear-gradient(
+      to right,
+      hsl(220 100% 80%),
+      var(--contact-color1)
+    );
+  }
 }
-
+@media (orientation: portrait) {
+  .circles-home {
+    flex-direction: column;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--main-white);
+    color: var(--main-black);
+  }
+}
 @media (prefers-color-scheme: dark) {
-  .frame {
+  body {
     background-color: var(--main-black);
     color: var(--main-white);
   }
