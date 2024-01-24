@@ -26,9 +26,8 @@ body {
   align-items: center;
 }
 h1 {
-  border-bottom: 1px solid var(--main-black);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /*border-bottom: 1px solid var(--main-black);*/
+
   text-transform: uppercase;
   text-align: center;
 }

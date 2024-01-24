@@ -1,11 +1,15 @@
 @media screen and (min-width: 1000px) {
+  body {
+    font-size: 20pt;
+  }
   .circles-home {
     display: flex;
     flex-direction: row;
-  }
+      }
   .circle {
-    height: 70vh;
-    width: 70vh;
+    height: 18em;
+    width: 18em;
+    padding-top: 1rem;
   }
 }
 
@@ -13,6 +17,7 @@
   .circles-home {
     display: flex;
     flex-direction: row;
+    padding-top: 1rem;
   }
   .circle-about {
     background: linear-gradient(
@@ -31,10 +36,21 @@
       var(--contact-color1)
     );
   }
+  .circle {
+    margin-top: 1rem;
+    height: 18em;
+    width: 18em;
+    
+  }
 }
 @media (orientation: portrait) {
   .circles-home {
     flex-direction: column;
+  }
+  .circle {
+    margin-top: 5rem;
+    height: 22em;
+    width: 22em;
   }
 }
 @media (prefers-color-scheme: light) {
@@ -43,7 +59,7 @@
     color: var(--main-black);
   }
 }
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   body {
     background-color: var(--main-black);
     color: var(--main-white);
