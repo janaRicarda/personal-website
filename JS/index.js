@@ -48,7 +48,7 @@ buttonSkills.addEventListener("click", () => {
   <h1 class="dark-mode__skills">skills</h1>
   </header>
   <section>
-      <p class="circle skills">HTML, CSS, Javascript, Git</p>
+      <p class="circle skills">HTML<br>CSS<br>Javascript<br>Git<br>React</p>
   </section>`;
 
   main.append(articleSkills);

@@ -26,8 +26,6 @@ body {
   align-items: center;
 }
 h1 {
-  /*border-bottom: 1px solid var(--main-black);*/
-
   text-transform: uppercase;
   text-align: center;
 }
@@ -45,6 +43,7 @@ h1 {
 
 .skills {
   background: var(--skills-color1);
+  text-align: center;
 }
 
 .contact {

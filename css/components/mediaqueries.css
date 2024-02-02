@@ -5,7 +5,7 @@
   .circles-home {
     display: flex;
     flex-direction: row;
-      }
+  }
   .circle {
     height: 18em;
     width: 18em;
@@ -40,7 +40,6 @@
     margin-top: 1rem;
     height: 18em;
     width: 18em;
-    
   }
 }
 @media (orientation: portrait) {
@@ -59,7 +58,7 @@
     color: var(--main-black);
   }
 }
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   body {
     background-color: var(--main-black);
     color: var(--main-white);
